@@ -1,0 +1,17 @@
+Package: lwi
+Title: Learning and Work Institute Helper Functions
+Version: 0.0.0.9000
+Authors@R: 
+    person("Christoffer", "Soderberg", , "Christoffer.Soderberg@learningandwork.org.uk", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This is a package for hosting common code functionality shared across Learning and Work Institute projects.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    here,
+    ragg
