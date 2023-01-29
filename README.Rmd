@@ -36,5 +36,6 @@ Once installed, lwi functions are imported via the following:
 
 ```{r example}
 library(lwi)
-## basic example code
 ```
+
+(Example usage forthcoming)

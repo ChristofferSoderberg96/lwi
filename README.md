@@ -28,3 +28,5 @@ Once installed, lwi functions are imported via the following:
 ``` r
 library(lwi)
 ```
+
+(Example usage forthcoming)
