@@ -2,12 +2,12 @@
 % Please edit documentation in R/plot_print.R
 \name{plot_print}
 \alias{plot_print}
-\title{Automatically save a collection of ggplot objects to a specified file directory as PNGs}
+\title{Automatically save a collection of ggplot/plot objects to a specified file directory as PNGs}
 \usage{
 plot_print(plot_list, filepath, width, height, res = 72, scaling = 1)
 }
 \arguments{
-\item{plot_list}{List of ggplot objects from global environment}
+\item{plot_list}{Global environment list of ggplot/plot objects}
 
 \item{filepath}{Desired file path for the PNGs}
 
@@ -23,7 +23,7 @@ plot_print(plot_list, filepath, width, height, res = 72, scaling = 1)
 Returns nothing to the global environment
 }
 \description{
-Automatically save a collection of ggplot objects to a specified file directory as PNGs
+Automatically save a collection of ggplot/plot objects to a specified file directory as PNGs
 }
 \examples{
 \dontrun{
